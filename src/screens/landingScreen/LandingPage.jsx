@@ -2,6 +2,13 @@ import React from 'react';
 import { connect } from "react-redux";
 import { Link } from 'react-router-dom'
 
+const texts = {
+    name: "",
+    introduction: "",
+    logoname:"",
+    buttonText: ""
+}
+
 export default function LandingPage(){
     return  <div>
         <h1> El gym de Juan </h1>
